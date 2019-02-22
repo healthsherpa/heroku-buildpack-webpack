@@ -11,4 +11,4 @@ export_env_dir $env_dir
 cd $build_dir
 
 head "Building webpack bundle"
-node --max_old_space_size=4096 $(npm bin)/webpack --profile --display-modules
+node --max_old_space_size=4096 $(npm bin)/webpack
